@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Rest Api Application</string>
+
+    <!-- Main Activity. -->
+    <string name="test_get_request">Test Get Request</string>
+    <string name="test_post_request">Test Post Request</string>
+    <string name="test_put_request">Test Put Request</string>
+    <string name="test_delete_request">Test Delete Request</string>
+    <string name="please_wait">Please wait..</string>
+
+</resources>
