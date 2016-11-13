@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mButtonTestPutRequest.setOnClickListener(this);
         mButtonTestDeleteRequest.setOnClickListener(this);
 
-        mHttpRestApi = VolleyHttpRestApiImpl.getInstance(this);
+        mHttpRestApi = ((RestApiApplication) getApplication()).getHttpClientApi();
     }
 
     /**
