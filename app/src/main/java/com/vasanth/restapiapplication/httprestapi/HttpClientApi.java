@@ -47,7 +47,7 @@ public interface HttpClientApi {
         int ERROR_CODE_TIME_OUT_ERROR = 1002;
 
         // Error code indicated some random unknown error (like BadUrl etc)
-        int ERROR_CODE_UNKNOWN_ERROR = 1002;
+        int ERROR_CODE_UNKNOWN_ERROR = 1003;
 
         /**
          * Gets called on request success.
